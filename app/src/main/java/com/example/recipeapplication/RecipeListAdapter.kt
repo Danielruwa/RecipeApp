@@ -27,8 +27,7 @@ class RecipeListAdapter(
             itemView.titleTextView.text = recipe.title
             itemView.typeTextView.text = recipe.type
             itemView.difficultyTextView.text = recipe.difficulty
-            // You can also set other UI elements here like an image for the recipe
-            // Example: itemView.imageView.setImageResource(R.drawable.recipe_image)
+
         }
     }
 }
