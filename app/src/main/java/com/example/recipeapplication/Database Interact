@@ -1,0 +1,21 @@
+class ExploreActivity : AppCompatActivity() {
+
+    private lateinit var recipeDao: RecipeDao
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_explore)
+
+        val database = RecipeDatabase.getDatabase(applicationContext)
+        recipeDao = database.recipeDao()
+
+    }
+
+    private fun populateSampleData() {
+ 
+        GlobalScope.launch(Dispatchers.IO) {
+            recipeDao.insert(recipe)
+        }
+    }
+
+}
