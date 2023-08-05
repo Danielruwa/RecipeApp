@@ -1,0 +1,26 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Recipe App</string>
+
+    <!-- Welcome Page Strings -->
+    <string name="welcome_title">Welcome to Recipe App</string>
+    <string name="welcome_description">Discover delicious recipes from around the world.</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Recipe Difficulty Levels -->
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_intermediate">Intermediate</string>
+    <string name="difficulty_advanced">Advanced</string>
+
+    <!-- Recipe Type (Meal Type) -->
+    <string name="type_breakfast">Breakfast</string>
+    <string name="type_lunch">Lunch</string>
+    <string name="type_supper">Supper</string>
+    <string name="type_snack">Snack</string>
+
+    <!-- Serves Text -->
+    <string name="serves_text">Serves %d people</string>
+
+    <!-- Difficulty Text -->
+    <string name="difficulty_text">Difficulty: %s</string>
+</resources>
