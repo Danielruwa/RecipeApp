@@ -8,10 +8,8 @@ class RecipeDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.recipe_detail)
 
-        // Get the Recipe object passed from the previous activity
         val recipe = intent.getParcelableExtra<Recipe>("recipe")
-
-        // Display the recipe details in the UI
+        
         recipe?.let {
             titleTextView.text = it.title
             typeTextView.text = it.type
