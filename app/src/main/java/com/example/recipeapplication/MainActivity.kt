@@ -30,6 +30,6 @@ class MainActivity : AppCompatActivity() {
     private fun navigateToExplorePage() {
         val intent = Intent(this, ExploreActivity::class.java)
         startActivity(intent)
-        finish() // Finish the MainActivity so that the user can't go back to it with the back button
+        finish() 
     }
 }
